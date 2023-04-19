@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background1_langit {
+  position: relative;
+}
+
+header {
+  position: absolute;
+}
+
+.header_text {
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin-left: 10px;
+  text-shadow: -2px 1px 1px;
+  border-color: black;
+}
+
+.nama {
+  font-size: 40px;
+  font-weight: 800;
+  color: grey;
+  margin-top: -4px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-left: 460px;
+  margin-top: -15px;
+}
+
+.score {
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 390px;
+  margin-top: -5px;
+}
+
+.center0 {
+  top: 0;
+  right: 0;
+}
+.karakter {
+  display: flex;
+  position: absolute;
+  bottom: 270px;
+  height: auto;
+  width: auto;
+}
+
+.naruto {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.lawan {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 140px;
+  left: 1390px;
+  top: 12px;
+}
+
+.bgtanah {
+  position: relative;
+}
+
+.tanah {
+  position: relative;
+  margin-top: 550px;
+}
+
+.Box {
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.964);
+  width: 600px;
+  height: 220px;
+  top: 520px;
+  justify-content: center;
+  left: 465px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxSoal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: white;
+  justify-content: center;
+  width: 550px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+
+.Jawaban {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxJawaban {
+  justify-content: center;
+  font-size: medium;
+  background-color: white;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  margin-left: 22px;
+  margin-top: 40px;
+  border-radius: 5px;
+  margin-right: 27px;
+}
